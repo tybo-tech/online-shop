@@ -1,0 +1,78 @@
+.section-lg-bottom {
+    padding-bottom: 150px
+}
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 140px
+}
+
+.subtitle {
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #8b8e93;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400
+}
+
+p,
+.paragraph {
+    font-weight: 400;
+    color: #8b8e93;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #242f3e;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 1.2;
+    transition: .2s ease
+}
+
+.rounded-sm,
+.icon-bg-square::after,
+.team-member::before {
+    border-radius: 15px
+}
+
+.icon-primary {
+    color: #062caf
+}
+
+.icon-bg-square {
+    position: relative
+}
+
+.icon-lg {
+    font-size: 50px
+}
+
+.icon-bg-square::after {
+    content: '';
+    position: absolute;
+    top: -55px;
+    left: 73%;
+    width: 75px;
+    height: 75px;
+    -webkit-transform: rotate(50deg) scale(0.8) skew(-1deg, -15deg) translateX(16px) translateY(97px);
+    transform: rotate(50deg) scale(0.8) skew(-1deg, -15deg) translateX(16px) translateY(97px);
+    background: #f5f6f7
+}
+
+.icon-bg-square::before {
+    z-index: 1;
+    position: relative
+}
+
+.section-title {
+    margin-bottom: 38px
+}
